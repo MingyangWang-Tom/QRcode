@@ -1,4 +1,7 @@
 import tkinter as tk
+import pip
+
+pip.main(['install', 'qrcode'])
 import qrcode
 
 def generate_qr_code():
